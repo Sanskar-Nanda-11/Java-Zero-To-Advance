@@ -1,0 +1,8 @@
+127.0.0.1 - - [30/Jul/2025:09:57:45 +0530] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [30/Jul/2025:09:57:45 +0530] "GET /Hirefast/index.html HTTP/1.1" 200 267
+0:0:0:0:0:0:0:1 - - [30/Jul/2025:09:57:45 +0530] "GET /favicon.ico HTTP/1.1" 404 763
+0:0:0:0:0:0:0:1 - - [30/Jul/2025:10:09:38 +0530] "GET /Hirefast/index.html HTTP/1.1" 200 640
+0:0:0:0:0:0:0:1 - - [30/Jul/2025:10:09:38 +0530] "GET /Hirefast/index.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [30/Jul/2025:10:09:39 +0530] "GET /Hirefast/index.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [30/Jul/2025:10:09:42 +0530] "GET /Hirefast/OrgSignup.html HTTP/1.1" 200 612
+0:0:0:0:0:0:0:1 - - [30/Jul/2025:10:09:45 +0530] "GET /Hirefast/Hirefast/OrgLogin.html HTTP/1.1" 404 791

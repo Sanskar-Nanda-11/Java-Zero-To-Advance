@@ -1,0 +1,19 @@
+INDEX VERSION 1.134
+E:\Game To Be Deleted\New folder (2)\Work Place\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\325190301.index
+\WebProject\src\main\java
+E:\Game To Be Deleted\New folder (2)\Work Place\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\7109165.index
+\Projext\src\main\java
+E:\Game To Be Deleted\New folder (2)\Work Place\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1065115843.index
+\Java_not_mine
+E:\Game To Be Deleted\New folder (2)\Work Place\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\273848474.index
+\sir\src\main\java
+E:\Game To Be Deleted\New folder (2)\Work Place\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\666593804.index
+\sir_fast_hire\src\main\java
+E:\Game To Be Deleted\New folder (2)\Work Place\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2612731969.index
+\Java_not_mine\Java\CoreJava_not_mine\src
+E:\Game To Be Deleted\New folder (2)\Work Place\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\642428915.index
+\Projext\src\main\java
+E:\Game To Be Deleted\New folder (2)\Work Place\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3708176715.index
+\Hirefast_sir\src\main\java
+E:\Game To Be Deleted\New folder (2)\Work Place\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3444526339.index
+\Maven_Project1\src\main\resources

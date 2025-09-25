@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Organisation Dashboard</title>
+  <style>
+    body {
+      background-color: #fffaf0;
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Styled navbar */
+    nav {
+      width: 100%;
+      background-color: #f39c12;
+      padding: 15px 30px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+    }
+
+    nav a {
+      color: white;
+      font-weight: bold;
+      text-decoration: none;
+      background-color: transparent;
+      padding: 10px 20px;
+      border-radius: 6px;
+      transition: background-color 0.3s ease;
+    }
+
+    nav a:hover {
+      background-color: #e67e22;
+    }
+
+    h1 {
+      text-align: center;
+      color: #d35400;
+      margin-top: 40px;
+      margin-bottom: 30px;
+    }
+
+    .dashboard-links {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .dashboard-links a {
+      display: inline-block;
+      margin: 10px;
+      padding: 12px 24px;
+      background-color: #f39c12;
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+      border-radius: 8px;
+      transition: background-color 0.3s;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .dashboard-links a:hover {
+      background-color: #e67e22;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="/Hirefast/Index.html">Logout</a>
+  </nav>
+
+  <h1>Organisation Dashboard</h1>
+
+  <div class="dashboard-links">
+    <a href="PostJob.html">📄 Post a Job</a>
+    <a href="OrgJobs.jsp">📋 My Jobs</a>
+  </div>
+
+</body>
+</html>

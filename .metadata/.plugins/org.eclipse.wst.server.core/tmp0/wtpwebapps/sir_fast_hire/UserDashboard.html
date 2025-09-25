@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>User Dashboard</title>
+  <style>
+    body {
+      background-color: #fffaf0;
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Navbar */
+    nav {
+      width: 100%;
+      background-color: #f39c12;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: flex-end;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    nav a {
+      color: white;
+      font-weight: bold;
+      text-decoration: none;
+      background-color: transparent;
+      padding: 10px 20px;
+      border-radius: 6px;
+      transition: background-color 0.3s ease;
+    }
+
+    nav a:hover {
+      background-color: #e67e22;
+    }
+
+    h1 {
+      color: #d35400;
+      margin: 40px 0 20px;
+      text-align: center;
+    }
+
+    .dashboard-links {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .dashboard-links a {
+      display: inline-block;
+      padding: 12px 24px;
+      background-color: #f39c12;
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+      border-radius: 8px;
+      transition: background-color 0.3s;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .dashboard-links a:hover {
+      background-color: #e67e22;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="/Hirefast/Index.html">Logout</a>
+  </nav>
+
+  <h1>User Dashboard</h1>
+
+  <div class="dashboard-links">
+    <a href="/Hirefast/AllJobs.jsp">🔍 All Jobs</a>
+    <a href="/Hirefast/UserApplication.jsp">📄 My Applications</a>
+  </div>
+
+</body>
+</html>

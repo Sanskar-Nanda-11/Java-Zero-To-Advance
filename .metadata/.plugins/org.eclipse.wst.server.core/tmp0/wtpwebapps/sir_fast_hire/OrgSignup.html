@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Organisation Signup</title>
+<style>
+    /* Global Styles */
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #fffcf0; /* Light cream background */
+        color: #333; /* Dark text for readability */
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+
+    h2 {
+        color: #ff6600; /* Bright orange */
+        font-size: 32px;
+        margin-top: 50px;
+    }
+
+    h3 {
+        font-size: 18px;
+        margin-top: 20px;
+        color: #666;
+    }
+
+    /* Form Styles */
+    form {
+        background-color: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        width: 300px;
+        margin: 30px auto;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 8px;
+        text-align: left;
+        font-weight: bold;
+    }
+
+    input {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0 20px 0;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+
+    button {
+        width: 100%;
+        padding: 10px;
+        background-color: #ff6600; /* Orange background */
+        color: white;
+        font-size: 16px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+        background-color: #e65c00; /* Darker orange on hover */
+    }
+
+    a {
+        color: #ff6600;
+        text-decoration: none;
+        font-size: 16px;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+</style>
+</head>
+<body>
+
+<h2>Organisation Signup</h2>
+<form action="orgSignup" method="POST">
+    <label for="email">Email</label>
+    <input id="email" name="email" type="email" placeholder="Enter your email" required>
+
+    <label for="password">Password</label>
+    <input id="password" name="password" type="password" placeholder="Enter your password" required>
+
+    <button type="submit">Submit</button>
+</form>
+
+<h3>Already have an account?</h3>
+<a href="/Hirefast/OrgLogin.html">Organisation Login</a>
+
+</body>
+</html>
