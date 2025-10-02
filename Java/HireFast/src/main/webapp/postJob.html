@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Organization Post Job</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f0f4f8;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 20px;
+    }
+
+    h1 {
+      color: #2c3e50;
+      margin-bottom: 20px;
+    }
+
+    form {
+      background-color: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      width: 100%;
+      max-width: 500px;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    label {
+      font-weight: 600;
+    }
+
+    input {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 16px;
+      width: 100%;
+    }
+
+    button {
+      background-color: #3498db;
+      color: white;
+      border: none;
+      padding: 12px;
+      font-size: 16px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      margin-top: 10px;
+    }
+
+    button:hover {
+      background-color: #2980b9;
+    }
+  </style>
+</head>
+<body>
+  <h1>Post Job</h1>
+  <form action="postJob" method="post">
+    <label>Title:</label>
+    <input type="text" name="title" placeholder="Enter job title" required>
+
+    <label>Job Description:</label>
+    <input type="text" name="jd" placeholder="Enter job description" required>
+
+    <label>Role:</label>
+    <input type="text" name="role" placeholder="Enter job role" required>
+
+    <label>Salary:</label>
+    <input type="number" name="salary" placeholder="Enter salary" required>
+
+    <label>Vacancy:</label>
+    <input type="number" name="vacancy" placeholder="Number of openings" required>
+
+    <label>Organization Name:</label>
+    <input type="text" name="orgName" placeholder="Enter organization name" required>
+
+    <button type="submit">Post</button>
+  </form>
+</body>
+</html>
